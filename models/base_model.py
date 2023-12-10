@@ -7,6 +7,7 @@ from uuid import uuid4
 from datetime import datetime
 import models
 
+
 class BaseModel:
     """
     A base class for all hbnb models
@@ -29,8 +30,8 @@ class BaseModel:
 
     def __str__(self) -> str:
         """Return a string representation of the BaseModel instance."""
-        return "[{}] ({}) {}".format( 
-            self.__class__.__name__, self.id, self.__dict__)
+        return "[{}] ({}) {}".format(
+                self.__class__.__name__, self.id, self.__dict__)
 
     def save(self) -> None:
         """Update the public instance attribute updated_at with the current
@@ -51,4 +52,3 @@ class BaseModel:
         if not isinstance(todict["updated_at"], str):
             todict["updated_at"] = self.updated_at.isoformat()
         return todict
-
