@@ -109,7 +109,7 @@ EOF  all  count  create  destroy  help  quit  show  update
 $
 ```
 
-* create
+* create:
 
 > *Creates a new instance of a given class. The class' ID is printed and the instance is saved to the file file.json.*
 
@@ -119,7 +119,7 @@ $
 $
 ```
 
-* show 
+* show:
 
 > *Deletes an instance of a given class with a given ID.*
 > *Update the file.json*
@@ -131,7 +131,7 @@ $
 (hbhb)
 ```
 
-* all
+* all:
 
 > *Prints all string representation of all instances of a given class.*
 > *If no class is passed, all classes are printed.*
@@ -142,7 +142,7 @@ $
 (hbnb) all BaseModel
 [BaseModel] (57262839-51d7-4a9a-93e2-35ed8e91d823) {'id': '57262839-51d7-4a9a-93e2-35ed8e91d823', 'created_at': datetime.datetime(2023, 8, 13, 14, 19, 19, 412265), 'updated_at': datetime.datetime(2023, 8, 13, 14, 19, 19, 412357)}
 ```
-* destroy
+* destroy:
 
 >*Deletes an instance of a given class with a given ID.*
 >*Update the file.json*
@@ -157,7 +157,7 @@ $
 []
 ```
 
-* count 
+* count:
 
 > *Prints the number of instances of a given class.*
 
