@@ -172,6 +172,12 @@ dd697519-4ac9-42e0-80e2-fa7b3ac61193
 3
 ```
 
+## ``5-Usage``
+### run TEST interactive mode
+```bash
+echo "python3 -m unittest discover tests" | bash
+```
+
 ## ``6-Authors`
 
 -  [khalildahbane](https://github.com/khalildahbane)
