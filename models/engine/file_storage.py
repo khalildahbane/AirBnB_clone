@@ -69,4 +69,3 @@ class FileStorage:
                             data[key] = Review(**value)
             except Exception:
                 pass
-
