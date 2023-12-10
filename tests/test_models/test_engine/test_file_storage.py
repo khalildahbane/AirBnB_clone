@@ -39,7 +39,7 @@ class FileStorageTestCase(unittest.TestCase):
         self.assertEqual(models.storage.all()[keyname], new)
         """ check if object exist by keyname """
         self.assertIn(keyname, models.storage.all())
-        """ check if the object found in storage with corrrect id"""
+        """ check if the object found in storage with correct id"""
         self.assertTrue(models.storage.all()[keyname] is new)
 
         """test save and reload"""
