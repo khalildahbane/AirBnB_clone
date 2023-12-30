@@ -1,25 +1,28 @@
-.place{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: left;
-}
-.place h1 {
-    font-size: 30px;
-    width: 100%;
-    margin-bottom: 0px;
-    padding-left: 20px;
-
-}
 .places article {
-    width: 390px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #FF5A5F;
-    border-radius: 4px;
-    text-align: center;
+	width: 390px;
+	padding: 10px;
+	margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+	border: 1px solid #ff5a5f;
+	border-radius: 4px;
+	display: inline-block;
 }
+
+.places h1 {
+	font-size: 30px;
+	font-weight: bold;
+	width: 100%;
+	margin: .67em 0 .67em 0;
+}	
 .places h2 {
-    font-size: 30px;
-    margin: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+    
+}
+.places div {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
 }
