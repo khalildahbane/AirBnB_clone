@@ -7,7 +7,9 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-header .logo { align-items: center;
+header .logo {
+
+    align-items: center;
     width: 140px;
     height: 60px;
     background: url("../images/logo.png");
